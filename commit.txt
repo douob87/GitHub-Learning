@@ -1,0 +1,22 @@
+/*
+提交歷史 (Commit)
+     ↑ git commit
+暫存區 (Staging Area)
+     ↑ git add
+工作區 (Working Directory)
+*/
+
+git commit --amend //開編輯器修改註解
+
+//補檔案到上一個 commit
+git add "file"
+git commit --amend
+
+                             提交             暫存區             工作區
+git reset --soft             回退               V                  V
+git reset --mixed(預設)      回退               V                   X
+git reset --hard             回退               X                   X
+
+A -- B -- C -> A -- B -- C -- D 抵銷C做的事情
+git revert "版本號"
+git revert HEAD
