@@ -1,0 +1,7 @@
+git pull //更新
+git push //推送
+
+git add . //加到站存區
+git commit -m "message" // 加到工作區
+
+git diff "版本號" //跟 "版本號" 比較差異
