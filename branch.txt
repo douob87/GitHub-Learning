@@ -1,0 +1,10 @@
+git branch //看當前有哪些分支
+git branch feature //建立 feature 分支
+git branch -d feature //刪除 feature 分支
+
+git checkout feature //切換到 feature 分支 = git switch feature
+git checkout -b feature //建立並切換到 feature 分支 = git switch -c feature
+
+/*合併分支*/
+git switch main
+git merge
